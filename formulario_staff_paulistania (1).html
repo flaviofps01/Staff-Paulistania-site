@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Staff Paulistânia RP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #1b1b1b;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            border-bottom: 3px solid #ffcc00;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h2 {
+            margin-top: 40px;
+            color: #ffcc00;
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 6px;
+            border: none;
+            background: #2b2b2b;
+            color: #fff;
+            font-size: 15px;
+        }
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        button {
+            margin-top: 25px;
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            background: #ffcc00;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #e6b800;
+        }
+        .section {
+            padding: 20px;
+            background: #111;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+<header>Recrutamento – Staff Paulistânia RP</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>1. Informações Pessoais</h2>
+        <label>Nome completo</label>
+        <input type="text">
+
+        <label>Idade</label>
+        <input type="number">
+
+        <label>Discord com #tag</label>
+        <input type="text">
+
+        <label>Nick in-game</label>
+        <input type="text">
+
+        <label>Cidade/Estado onde mora</label>
+        <input type="text">
+
+        <label>Possui microfone funcionando?</label>
+        <select>
+            <option>Sim</option>
+            <option>Não</option>
+            <option>Intermitente</option>
+        </select>
+
+        <label>Disponibilidade diária (horários)</label>
+        <textarea></textarea>
+
+        <label>Trabalha, estuda ou tem outras ocupações? Explique:</label>
+        <textarea></textarea>
+    </div>
+
+    <div class="section">
+        <h2>2. Experiência em Staff</h2>
+        <label>Já foi staff em outro servidor?</label>
+        <select>
+            <option>Sim</option>
+            <option>Não</option>
+        </select>
+
+        <label>Se sim, quais servidores e cargos?</label>
+        <textarea></textarea>
+
+        <label>Por que saiu da staff anterior?</label>
+        <textarea></textarea>
+
+        <label>Funções que você já desempenhou</label>
+        <textarea placeholder="Suporte, Moderador, Resp Legal, Resp Ilegal, etc"></textarea>
+    </div>
+
+    <div class="section">
+        <h2>3. Conhecimento Técnico</h2>
+        <label>Você entende bem as regras de RP?</label>
+        <select>
+            <option>Sim, totalmente</option>
+            <option>Sim, mas não tudo</option>
+            <option>Mais ou menos</option>
+            <option>Não entendo</option>
+        </select>
+
+        <label>Conhecimento sobre RDM/VDM, PG, MG (explique):</label>
+        <textarea></textarea>
+
+        <label>Sabe usar console F8?</label>
+        <select>
+            <option>Sim</option>
+            <option>Não</option>
+        </select>
+
+        <label>Sabe lidar com gravações? (OBS, Medal, Nvidia)</label>
+        <select>
+            <option>Sim</option>
+            <option>Não</option>
+            <option>Sei o básico</option>
+        </select>
+    </div>
+
+    <div class="section">
+        <h2>4. Perguntas Comportamentais</h2>
+        <label>Por que quer fazer parte da staff?</label>
+        <textarea></textarea>
+
+        <label>Seu maior ponto forte:</label>
+        <textarea></textarea>
+
+        <label>Seu maior ponto fraco:</label>
+        <textarea></textarea>
+
+        <label>Como reage sob pressão?</label>
+        <textarea></textarea>
+
+        <label>Como lida com players exaltados ou tóxicos?</label>
+        <textarea></textarea>
+    </div>
+
+    <div class="section">
+        <h2>5. Situações de RP</h2>
+        <label>Um jogador acusa outro de RDM. O que você faz?</label>
+        <textarea></textarea>
+
+        <label>Um amigo comete anti-RP. Qual sua atitude?</label>
+        <textarea></textarea>
+
+        <label>20 players chamam staff ao mesmo tempo. Seu primeiro passo?</label>
+        <textarea></textarea>
+
+        <label>Racismo no chat enquanto um player streama. O que faz?</label>
+        <textarea></textarea>
+    </div>
+
+    <div class="section">
+        <h2>6. Ética e Termo Final</h2>
+        <label>Concorda que staff não tem privilégios?</label>
+        <select>
+            <option>Sim</option>
+            <option>Não</option>
+        </select>
+
+        <label>Concorda que abuso resulta em punição imediata?</label>
+        <select>
+            <option>Sim</option>
+            <option>Não</option>
+        </select>
+
+        <label>Confirma que todas informações são verdadeiras?</label>
+        <select>
+            <option>Sim</option>
+            <option>Não</option>
+        </select>
+
+        <label>Assinatura (nome completo)</label>
+        <input type="text">
+    </div>
+
+    <button type="submit">Enviar Formulário</button>
+
+</div>
+
+<script>
+// === CONFIGURE SUA WEBHOOK AQUI ===
+const WEBHOOK_URL = "https://discord.com/api/webhooks/COLOQUE_AQUI";
+
+function enviarFormulario(event) {
+    event.preventDefault();
+
+    const inputs = document.querySelectorAll('input, textarea, select');
+    let mensagem = "**NOVO FORMULÁRIO – STAFF PAULISTÂNIA RP**\n\n";
+
+    inputs.forEach(el => {
+        if (el.previousElementSibling && el.previousElementSibling.tagName === 'LABEL') {
+            const titulo = el.previousElementSibling.innerText;
+            const valor = el.value.trim() === "" ? "(vazio)" : el.value;
+            mensagem += `**${titulo}:** ${valor}\n`;
+        }
+    });
+
+    fetch(WEBHOOK_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            content: mensagem
+        })
+    })
+    .then(() => alert("Formulário enviado com sucesso!"))
+    .catch(() => alert("Erro ao enviar formulário."));
+}
+
+// Adiciona listener ao botão
+const botao = document.querySelector('button[type="submit"]');
+botao.addEventListener("click", enviarFormulario);
+</script>
+
+</body>
+</html>
